@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#nav{
+    width: 100%;
+    background-color: #D1D2F0;
+}
+
+#nav logo{
+    padding: 16px;
+    font-size: 35px;
+}
+
+#nav2 ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+#nav2 li{
+    float: right;
+    display: block;
+    list-style-type: none;
+    padding: 10px;
+    font-size: large;
+}
+
+#nav2{
+    position: absolute;
+    top: 0;
+    right:20px;
+}
+
+#artical{
+    width: 100%;
+    height: 500px;
+}
+
+#artical img{
+    position: absolute;
+    width: 650px;
+    right: 0;
+    top: 50px;
+}
+
+#artical heading{
+    position: absolute;
+    font-size: 50px;
+    font-family: bookman old style;
+    top: 100px;
+    left: 120px;
+}
+
+#artical paragraf{
+    font-size: 25px;
+    position: absolute;
+    top: 240px;
+    left: 60px;
+}
+
+#artical a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    background-color: orange;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    position: absolute;
+    top: 350px;
+    left: 80px;
+}
+
+#option{
+    position: inherit;
+    width: 100%;
+    border: 2px solid black;
+    height: 190px;
+    background-color: #D1D2F0;
+}
+
+option1{
+    position: absolute;
+    top: 565px;
+    left: 300px;
+}
+
+#option img{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    border-radius: 100%;
+    padding: 2px;
+}
+
+#label{
+    position: absolute;
+    top: 125px;
+    left: 23px;
+    font-size: 20px;
+}
+
+option2{
+    position: absolute;
+    top: 565px;
+    left: 600px;
+}
+
+option3{
+    position: absolute;
+    top: 565px;
+    left: 900px;
+}
+
+#label3{
+    position: absolute;
+    top: 115px;
+    left: 30px;
+    font-size: 20px;
+}
+
+#about{
+    position: relative;
+    font-family: bookman old style;
+    font-size: 40px;
+    top: 10px;
+    left: 590px;
+}
+
+#aboutus{
+   height: 500px;
+   width: 100%;
+   border: 2px solid black;
+   background-image: url();
+}
+
+#aboutus img{
+    height: 500px;
+    width: 1345px;
+    opacity: 0.5;
+}
+
+@media screen and (max-width: 650px){
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#nav{
+    width: 100%;
+    background-color: #D1D2F0;
+}
+
+#nav logo{
+    padding: 16px;
+    font-size: 25px;
+    position: relative;
+    left: 30px;
+}
+
+#nav2 ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+#nav2 li{
+    
+    display: block;
+    list-style-type: none;
+    padding: 5px;
+    font-size: large;
+}
+
+#nav2{
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 100%;
+    border: 2px solid black;
+}
+
+}
